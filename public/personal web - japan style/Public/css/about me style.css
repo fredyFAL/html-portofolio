@@ -1,0 +1,35 @@
+body {
+      background-color: #333333;
+     }
+img{
+    height: 150px;
+   }
+hr {
+    border-style: dotted none none;
+    border-width: 7px;
+    border-color:#706C61;
+    width: 4%;
+   }
+h1{color:#FFFFFF;}
+h3{color:#FFFFFF;}
+
+p{
+    color: #FFFFFF;
+    width: 450px;
+}
+
+.Education{
+    color: #FFFFFF;
+}
+
+.Experience{
+    color: #FFFFFF;
+}
+
+.Skills{
+    color: #FFFFFF;
+}
+
+table{
+    width: 450px;
+}

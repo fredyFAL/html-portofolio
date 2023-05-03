@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.navigasi{
+    position: relative;
+    width: 100%;
+    height: 8vh;
+    background-color: #314E52;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+nav .tentang li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav .tentang li a{
+    text-decoration: none;
+    color: #e7e6e7;
+    font-weight: bold;
+    font-size: x-small;
+
+}
+
+nav .icon li {
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+nav .icon li a{
+    color: #e7e6e7;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+nav ul li a:hover{
+    color: grey;
+}
+
+.beranda{
+    position: relative;
+    width: 100%;
+    height: 55vh;
+    background-size: cover;
+    background-color: #E7E6E1;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+}
+
+.profil{
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.halaman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 11px;
+    height: 33vh;
+    background-color: #F7F6E7;
+}
+
+.halaman .ket{
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #314E52;
+}
+
+.halaman .kotak{
+    display: flex;
+    width: 50%;
+    height: 70%;
+    gap: 1rem;
+}
+
+.halaman .kotak .card{
+   flex: 1;
+   justify-content: center;
+   align-items: center;
+   border-style: solid;
+   border-width: 5px;
+   border-color:#F2A154 ;
+   box-sizing: border-box;
+}
+
+.pic{
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/images/fredfred.png);
+    background-size: cover;
+}
+
+
+.halaman .kotak .card2{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+   border-style: solid;
+   border-width: 5px;
+   border-color:#F2A154 ;
+
+}
+
+.pic2{
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/images/movie-ranking.png);
+    background-size: cover;
+}
+
+.card3{
+   flex: 1;
+   justify-content: center;
+   align-items: center;
+   border-style: solid;
+   border-width: 5px;
+   border-color:#F2A154 ;
+
+}
+
+.pic3{
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/images/birthday-invite.png);
+    background-size: cover;
+}
